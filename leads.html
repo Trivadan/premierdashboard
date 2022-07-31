@@ -13,7 +13,7 @@
 <meta name="creation_Date" content="02/12/2021" />
 <meta name="expires" content="" />
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<title>Premier Agent | Settings</title>
+<title>Premier Agent | Leads</title>
 
 <!--StyleSheet-->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
@@ -232,44 +232,105 @@
       
       <!-- PAGE-HEADER -->
       <div class="page-header">
-        <h1 class="page-title">Settings</h1>
+        <h1 class="page-title">My Leads</h1>
         <div>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Settings</li>
+            <li class="breadcrumb-item active" aria-current="page">Leads</li>
           </ol>
         </div>
       </div>
       <!-- PAGE-HEADER END --> 
       
-      <!-- ROW-1 OPEN -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
+      <!-- Row -->
+      <div class="row row-sm">
+        <div class="col-lg-12">
           <div class="card">
-            <div class="card-header">
-              <div class="card-title">Delete Account</div>
+            <div class="card-header cardheader-center">
+              <h3 class="card-title">Leads</h3>
+              <!-- <div class="float-end">
+                <a href="add-events.html" class="btn btn-blue btn-block">Add Events</a>
+              </div> -->
             </div>
-            <div class="card-body textspacing">
-              <p>Its Advisable for you to request your data to be sent to your Email.</p>
-              <label class="custom-control custom-checkbox mb-0">
-                <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1" checked>
-                <span class="custom-control-label">Yes, Send my data to my Email.</span> </label>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table id="example2" class="table table-bordered border-bottom">
+                  <thead>
+                    <tr>
+                      <th class="border-bottom-0">S.No</th>
+                      <th class="border-bottom-0">Agent Name</th>
+                      <th class="border-bottom-0">Email</th>
+                      <th class="border-bottom-0">Contact No</th>
+                      <th class="border-bottom-0">Message</th>
+                      <!-- <th class="border-bottom-0">Action</th> -->
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Agent Zacharia</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Dan Triva</td>
+                      <td>anne@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Agent Simone</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Dan Triva</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Dan Triva</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Dan Triva</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Dan Triva</td>
+                      <td>test@gmal.com</td>
+                      <td>0721375913</td>
+                      <td>Need to know the best places to invest in real estate JV for high returns? We have listed the top areas to concentrate on for maximum returns</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="card-footer text-end"> 
-              <a href="javascript:void(0)" class="btn btn-primary my-1">Deactivate</a> 
-              <a href="javascript:void(0)" class="btn btn-danger my-1">Delete Account</a> 
-            </div>
-            </div>
+          </div>
         </div>
       </div>
-      <!-- ROW-1 CLOSED --> 
+      <!-- End Row --> 
     </div>
     <!-- CONTAINER END --> 
   </div>
 </div>
 <!--app-content close-->
 
-  </div>
+</div>
+
 
 <!-- FOOTER -->
 <footer class="footer">
@@ -303,18 +364,87 @@
   </div>
 </footer>
 
+<!-- MODAL EFFECTS -->
+<div class="modal fade" id="modaldemo8">
+    <div class="modal-dialog modal-lg modal-dialog-centered text-start" role="document">
+        <div class="modal-content modal-content-demo">
+            <div class="modal-header">
+                <h4 class="modal-title">Review</h4><button aria-label="Close" class="btn-close" data-bs-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <dl class="row">
+                  <dt class="col-sm-2">From</dt>
+                  <dd class="col-sm-10">Simone</dd>
+                  <dt class="col-sm-2">Phone</dt>
+                  <dd class="col-sm-10">0721375913</dd>
+              </dl>
+                <dl class="row">
+                  <div class="col-sm-12 mb-3">Recommended5/5</div>
+                  <dt class="col-sm-4">Local Knowledge</dt>
+                  <dd class="col-sm-8">
+                    <div class="rating-stars block" id="rating-1" data-stars="2"></div>
+                  </dd>
+                  <dt class="col-sm-4">Process Expertise</dt>
+                  <dd class="col-sm-8">
+                    <div class="rating-stars block" id="rating-2" data-stars="2"></div>
+                  </dd>
+                  <dt class="col-sm-4">Responsiveness</dt>
+                  <dd class="col-sm-8">
+                    <div class="rating-stars block" id="rating-3" data-stars="2"></div>
+                  </dd>
+                  <dt class="col-sm-4">Negotiating Skills</dt>
+                  <dd class="col-sm-8">
+                    <div class="rating-stars block" id="rating-4" data-stars="2"></div>
+                  </dd>
+                  <dt class="col-sm-4">Punctuality</dt>
+                  <dd class="col-sm-8">
+                    <div class="rating-stars block" id="rating-5" data-stars="2"></div>
+                  </dd>
+              </dl>
+            </div>
+            <div class="modal-footer text-start">
+                <h5>Review</h5>
+                <p>Good UI Experience</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery -->
 <script src="js/jquery.min.js" type="text/Javascript"></script>
 <script src="js/sticky.js" type="text/Javascript"></script>
+
+<!-- Star Rating Js-->
+<script src="assets/rating/jquery-rate-picker.js"></script>
+<script src="assets/rating/rating-picker.js"></script>
 
 <!-- Perfect SCROLLBAR JS-->
 <script src="assets/p-scroll/perfect-scrollbar.js"></script>
 <script src="assets/p-scroll/pscroll.js"></script>
 <script src="assets/p-scroll/pscroll-1.js"></script>
 
+<!-- DATA TABLE JS-->
+<script src="assets/datatable/js/jquery.dataTables.min.js"></script>
+<script src="assets/datatable/js/dataTables.bootstrap5.js"></script>
+<script src="assets/datatable/js/dataTables.buttons.min.js"></script>
+<script src="assets/datatable/js/buttons.bootstrap5.min.js"></script>
+<script src="assets/datatable/js/jszip.min.js"></script>
+<script src="assets/datatable/pdfmake/pdfmake.min.js"></script>
+<script src="assets/datatable/pdfmake/vfs_fonts.js"></script>
+<script src="assets/datatable/js/buttons.html5.min.js"></script>
+<script src="assets/datatable/js/buttons.print.min.js"></script>
+<script src="assets/datatable/js/buttons.colVis.min.js"></script>
+<script src="assets/datatable/dataTables.responsive.min.js"></script>
+<script src="assets/datatable/responsive.bootstrap5.min.js"></script>
+<!-- <script src="../assets/js/table-data.js"></script> -->
+
 <script src="js/sidebar/sidebar.js" type="text/Javascript"></script>
 <script src="js/sidemenu/sidemenu.js" type="text/Javascript"></script>
+
+<!-- INTERNAL SUMMERNOTE Editor JS -->
+<script src="js/summernote/summernote1.js"></script>
+<script src="js/summernote.js"></script>
+
 <script src="js/main.js" type="text/Javascript"></script>
 </body>
 

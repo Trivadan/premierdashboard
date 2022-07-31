@@ -36,27 +36,20 @@
         <div class="d-flex"> <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-bs-toggle="sidebar" href="javascript:void(0)"></a> 
           <!-- sidebar-toggle--> 
           <a class="logo-horizontal " href="index.html">
-          <h2>Premier Agent</h2>
-          <!-- <img src="../assets/images/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
-                        <img src="../assets/images/brand/logo-3.png" class="header-brand-img light-logo1"
-                            alt="logo"> --> 
+          <img src="images/premier-logo.png" class="header-brand-img desktop-logo" alt="logo">
+          <img src="images/premier-logo.png" class="header-brand-img light-logo1" alt="logo">
           </a> 
           <!-- LOGO -->
-          <!-- <div class="main-header-center ms-3 d-none d-lg-block">
-            <input type="text" class="form-control" id="typehead" placeholder="Search for results...">
-            <button class="btn px-0 pt-2"><i class="fa fa-search" aria-hidden="true"></i></button>
-          </div> -->
           <div class="d-flex order-lg-2 ms-auto header-right-icons"> 
             <!-- SEARCH -->
-            <button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon fas fa-bars"></span> </button>
             <div class="navbar navbar-collapse responsive-navbar p-0">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+              <div class="navbar-collapse" id="navbarSupportedContent-4">
                 <div class="d-flex order-lg-2">
 
                   <!-- FULL-SCREEN -->
                   <div class="dropdown  d-flex notifications"> 
                   <a class="nav-link icon" data-bs-toggle="dropdown">
-                  	<i class="far fa-bell"></i><span class=" pulse"></span> 
+                    <i class="far fa-bell"></i><span class=" pulse"></span> 
                   </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                       <div class="drop-heading border-bottom">
@@ -65,12 +58,12 @@
                         </div>
                       </div>
                       <div class="notifications-menu"> <a class="dropdown-item d-flex" href="notify-list.html">
-                        <div class="me-3 notifyimg  bg-primary brround box-shadow-primary"> <i class="icofont-envelope"></i> </div>
+                        <div class="me-3 notifyimg bg-primary brround box-shadow-primary"> <i class="icofont-envelope"></i> </div>
                         <div class="mt-1 wd-80p">
                           <h5 class="notification-label">New Application received </h5>
                           <span class="notification-subtext">3 days ago</span> </div>
                         </a> <a class="dropdown-item d-flex" href="notify-list.html">
-                        <div class="me-3 notifyimg  bg-secondary brround box-shadow-secondary"> <i class="icofont-check-circled"></i> </div>
+                        <div class="me-3 notifyimg bg-secondary brround box-shadow-secondary"> <i class="icofont-check-circled"></i> </div>
                         <div class="mt-1 wd-80p">
                           <h5 class="notification-label">Project has been
                             approved</h5>
@@ -84,16 +77,16 @@
                         <div class="me-3 notifyimg bg-pink brround box-shadow-pink"> <i class="icofont-user"></i> </div>
                         <div class="mt-1 wd-80p">
                           <h5 class="notification-label">Friend Requests</h5>
-                          <span class="notification-subtext">1 day ago</span> </div>
-                        </a> </div>
+                          <span class="notification-subtext">1 day ago</span> 
+                        </div>
+                        </a> 
+                      </div>
                       <div class="dropdown-divider m-0"></div>
-                      <a href="notify-list.html"
-                                                class="dropdown-item text-center p-3 text-muted">View all
-                      Notification</a> </div>
+                      <a href="notify-list.html" class="dropdown-item text-center p-3 text-muted">View all Notification</a> </div>
                   </div>
                   <!-- NOTIFICATIONS -->
                   <div class="dropdown  d-flex message"> 
-                  	<a class="nav-link icon text-center" data-bs-toggle="dropdown"> <i class="fas fa-comment-alt"></i><span class="pulse-danger"></span> </a>
+                    <a class="nav-link icon text-center" data-bs-toggle="dropdown"> <i class="fas fa-comment-alt"></i><span class="pulse-danger"></span> </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                       <div class="drop-heading border-bottom">
                         <div class="d-flex">
@@ -134,12 +127,21 @@
                             <small class="text-muted ms-auto text-end"> 7:55 pm </small> </div>
                           <span>New Product Realease......</span> </div>
                         </a> 
+                        <!-- <a class="dropdown-item d-flex" href="chat.html"> 
+                          <img class="avatar avatar-md brround me-3 align-self-center cover-image" src="images/user.jpg">
+                        <div class="wd-90p">
+                          <div class="d-flex">
+                            <h5>Cherry Blossom</h5>
+                            <small class="text-muted ms-auto text-end"> 7:55 pm </small> </div>
+                          <span>You have appointment on......</span> </div>
+                        </a>  -->
                       </div>
                       <div class="dropdown-divider m-0"></div>
                       <a href="javascript:void(0)" class="dropdown-item text-center p-3 text-muted">See all
                       Messages</a> </div>
                   </div>
                   <!-- MESSAGE-BOX -->
+                  <!-- <div class="dropdown d-flex header-settings"> <a href="javascript:void(0);" class="nav-link icon" data-bs-toggle="sidebar-right" data-target=".sidebar-right"> <i class="fas fa-bars"></i> </a> </div> -->
                   <!-- SIDE-MENU -->
                   <div class="dropdown d-flex profile-1"> <a href="javascript:void(0)" data-bs-toggle="dropdown" class="nav-link leading-none d-flex"> <img src="images/user.jpg" alt="profile-user" class="avatar  profile-user brround cover-image"> </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
@@ -170,13 +172,11 @@
       <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
       <div class="app-sidebar">
         <div class="side-header"> <a class="header-brand1" href="index.html">
-          <h2>Premier Agent</h2>
-          <!-- <img src="../assets/images/brand/logo.png" class="header-brand-img desktop-logo" alt="logo">
-                        <img src="../assets/images/brand/logo-1.png" class="header-brand-img toggle-logo"
-                            alt="logo">
-                        <img src="../assets/images/brand/logo-2.png" class="header-brand-img light-logo" alt="logo">
-                        <img src="../assets/images/brand/logo-3.png" class="header-brand-img light-logo1"
-                            alt="logo"> --> 
+          <!-- <h2>Premier Agent</h2> -->
+          <img src="images/premier-logo.png" class="header-brand-img desktop-logo" alt="logo">
+          <img src="images/premier-logo.png" class="header-brand-img toggle-logo" alt="logo">
+          <img src="images/premier-logo.png" class="header-brand-img light-logo" alt="logo">
+          <img src="images/premier-logo.png" class="header-brand-img light-logo1" alt="logo">
           </a> 
           <!-- LOGO --> 
         </div>
@@ -358,9 +358,9 @@
 <script src="js/sticky.js" type="text/Javascript"></script>
 
 <!-- Perfect SCROLLBAR JS-->
-<script src="js/p-scroll/perfect-scrollbar.js"></script>
-<script src="js/p-scroll/pscroll.js"></script>
-<script src="js/p-scroll/pscroll-1.js"></script>
+<script src="assets/p-scroll/perfect-scrollbar.js"></script>
+<script src="assets/p-scroll/pscroll.js"></script>
+<script src="assets/p-scroll/pscroll-1.js"></script>
 
 <!-- FILE UPLOADES JS -->
 <script src="assets/fileuploads/js/fileupload.js"></script>
